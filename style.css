@@ -1,0 +1,110 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #100303;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77b300 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    float: left;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background: #080a00;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+.returns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.return-box {
+    background: #080000;
+    color: #0d4a79f9;
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+.return-box h3 {
+    margin: 0 0 10px;
+}
+
+.return-box p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.prices {
+    background: #120202;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.prices table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.prices th, .prices td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
