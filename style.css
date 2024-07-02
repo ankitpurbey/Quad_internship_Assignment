@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500&family=Montserrat:400&display=swap");
 
-
-
+/* $theme-light-font-color: #0c0f48;
+$theme-dark-font-color: white;
+$theme-light-main-background: #ffffff;
+$theme-dark-main-background: #191d28;
+$theme-color: #3dc6c1;
+$theme-dark-component-background: #2e3241;
+$theme-light-component-background: #f8f9fa; */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -46,6 +52,31 @@ header nav {
 
 header h1 {
     float: left;
+}
+header .dropdowns {
+    float: right;
+    margin-top: 10px;
+    margin-right: 500px;
+    text-align: center;
+    
+}
+
+header select {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    color: #000;
+}
+header #theme-toggle {
+    padding: 5px 10px;
+    margin-left: 20px;
+    background-color: #77b300;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 main {
