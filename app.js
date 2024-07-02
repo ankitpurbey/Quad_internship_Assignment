@@ -5,3 +5,11 @@ const getData = async()=>{
     console.log(response);
     
 }
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    let themeLink = document.getElementById('theme-link');
+    if (themeLink.getAttribute('href') === 'styles-light.css') {
+        themeLink.setAttribute('href', 'styles-dark.css');
+    } else {
+        themeLink.setAttribute('href', 'styles-light.css');
+    }
+});
